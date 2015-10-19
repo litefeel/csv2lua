@@ -4,7 +4,7 @@
   <output>
     <movie outputType="Application" />
     <movie input="" />
-    <movie path="bin\mackCpp.swf" />
+    <movie path="bin\csv2lua.swf" />
     <movie fps="30" />
     <movie width="800" />
     <movie height="600" />
@@ -12,12 +12,12 @@
     <movie minorVersion="9" />
     <movie platform="AIR" />
     <movie background="#FFFFFF" />
-    <movie preferredSDK="Flex 4.6.0, AIR 14.0;4.6.0, 14.0;" />
+    <movie preferredSDK="AIR 19.0.0;19.0.0;" />
   </output>
   <!-- Other classes to be compiled into your SWF -->
   <classpaths>
     <class path="src" />
-    <class path="..\..\..\..\..\GitHub\lite3lib\src" />
+    <class path="lite3lib\src" />
   </classpaths>
   <!-- Build options -->
   <build>
@@ -88,7 +88,7 @@
   <options>
     <option showHiddenPaths="False" />
     <option testMovie="Custom" />
-    <option testMovieCommand="Run.bat" />
+    <option testMovieCommand="Run.bat &quot;$(CompilerPath)&quot;" />
   </options>
   <!-- Plugin storage -->
   <storage />

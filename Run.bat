@@ -1,6 +1,6 @@
 @echo off
 set PAUSE_ERRORS=1
-call bat\SetupSDK.bat
+call bat\SetupSDK.bat %1
 call bat\SetupApplication.bat
 
 echo.

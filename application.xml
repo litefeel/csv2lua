@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?> 
 <application xmlns="http://ns.adobe.com/air/application/3.9">
 	
-	<id>mackCpp</id> 
+	<id>csv2lua</id> 
 	<versionNumber>1.0</versionNumber> 
-	<filename>mackCpp</filename> 
+	<filename>csv2lua</filename> 
 	
 	<name>mackCpp</name> 
 	<description></description> 
 	<copyright></copyright> 
 	
 	<initialWindow> 
-		<title>mackCpp</title> 
-		<content>mackCpp.swf</content> 
+		<title>csv2lua</title> 
+		<content>csv2lua.swf</content> 
 		<systemChrome>standard</systemChrome> 
 		<transparent>false</transparent> 
 		<visible>true</visible> 

@@ -20,7 +20,7 @@ set APP_DIR=bin
 set FILE_OR_DIR=-C %APP_DIR% .
 
 :: Your application ID (must match <id> of Application descriptor)
-set APP_ID=mackCpp
+set APP_ID=csv2lua
 
 :: Output
 set AIR_PATH=air
